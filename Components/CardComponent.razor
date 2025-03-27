@@ -9,17 +9,15 @@
 </div>
 
 @code {
+    
+    
+    
     [Parameter] public string Title { get; set; }
     [Parameter] public string TitleColor { get; set; }
     [Parameter] public string Value { get; set; }
     [Parameter] public string Icon { get; set; }
     [Parameter] public string Color { get; set; }
     [Parameter] public string BackgroundColor { get; set; }
-
-    
-    
-    
-    
     
     private string IconClass => $"fa-solid {Icon} text-{Color} text-2xl";
 }

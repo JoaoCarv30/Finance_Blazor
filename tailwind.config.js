@@ -11,6 +11,8 @@ export default {
                 "white-50" : "#E5E7EB",
                 "purple": "#6933FF",
                 "purple-50": "#5429CC",
+                "mygreen": "#33CC95",
+                "myred" : "#E52E4C"
             }
 
         },
