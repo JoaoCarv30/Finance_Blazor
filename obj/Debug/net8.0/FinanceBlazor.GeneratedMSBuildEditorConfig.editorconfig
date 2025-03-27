@@ -38,12 +38,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9DYXJkQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/joao/FinanceBlazorProject/FinanceBlazor/Components/CardsSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9DYXJkc1NlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/joao/FinanceBlazorProject/FinanceBlazor/Components/HeaderComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9IZWFkZXJDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/joao/FinanceBlazorProject/FinanceBlazor/Components/NewTransaction.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OZXdUcmFuc2FjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/joao/FinanceBlazorProject/FinanceBlazor/Components/Table.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYWJsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/joao/FinanceBlazorProject/FinanceBlazor/Layout/MainLayout.razor]

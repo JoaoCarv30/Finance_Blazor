@@ -1,0 +1,39 @@
+@using System.Collections.ObjectModel
+@using FinanceBlazor.Enum
+@using FinanceBlazor.Model
+@using FinanceBlazor.Service
+@inject TransactionService TransactionService
+
+<section class="w-screen flex items-center justify-center p-2 ">
+    <RadzenDataGrid AllowFiltering="true"
+                    FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                    AllowPaging="true"
+                    PageSize="4"
+                    AllowSorting="true"
+                    Data="@Transactions"
+                    TItem="ModelTransaction"
+                    ColumnWidth="150px">
+
+        <Columns>
+            <RadzenDataGridColumn TItem="ModelTransaction" Property="Id" Title="ID"></RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="ModelTransaction" Property="Name" Title="Nome"></RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="ModelTransaction" Property="Price" Title="Preço" FormatString="{0:C}"></RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="ModelTransaction" Property="Category" Title="Categoria"></RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="ModelTransaction" Property="CreatedAt" Title="Data" FormatString="{0:dd/MM/yyyy    HH:mm}"></RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="ModelTransaction" Title="Tipo" Context="transaction">
+                <Template>
+                    @(transaction.Type == TypeTransaction.Income ? "Entrada" : "Saída")
+                </Template>
+            </RadzenDataGridColumn>
+        </Columns>
+    </RadzenDataGrid>
+</section>
+
+@code {
+    private ObservableCollection<ModelTransaction> Transactions;
+
+    protected override void OnInitialized()
+    {
+        Transactions = TransactionService.Transactions;
+    }
+}

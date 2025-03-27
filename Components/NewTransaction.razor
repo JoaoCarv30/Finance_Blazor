@@ -1,56 +1,96 @@
 @using FinanceBlazor.Enum
+@using FinanceBlazor.Model
+@using FinanceBlazor.Service
 @inject DialogService DialogService
+@inject TransactionService TransactionService
+@inject NotificationService NotificationService
 
-<div class="flex items-center justify-center flex-col gap-4">
+<EditForm Model="@transaction" OnValidSubmit="SaveTransaction">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
 
-    <RadzenFormField Text="Nome" Variant="Variant.Outlined" Style="width: 100%;"> 
-        <RadzenTextBox @bind-Value="@Name" />
-    </RadzenFormField>
-    <RadzenNumeric TValue="double" Format="c" @bind-Value=@Price InputAttributes="@(new Dictionary<string,object>(){ { "aria-label", "enter value" }})" Style="width: 100%;"/>
+    <div class="flex items-center justify-center flex-col gap-4">
+        <RadzenFormField Text="Nome" Variant="Variant.Outlined" Style="width: 100%;"> 
+            <RadzenTextBox @bind-Value="@transaction.Name" />
+            <ValidationMessage For="@(() => transaction.Name)" />
+        </RadzenFormField>
 
-    <div class="flex items-center justify-center w-full gap-2">
-        <button class="py-4 px-2 flex items-center justify-center  rounded-md border gap-2 w-full
-                       @(Type == TypeTransaction.Income ? "bg-mygreen text-white font-bold" : "bg-gray-100")"
-                @onclick="() => Type = TypeTransaction.Income">
-            <i class="fa-solid fa-circle-arrow-up @(Type == TypeTransaction.Income ? "text-white" : "text-green-500") text-2xl"></i>
-            Entrada
-        </button>
 
-        <button class="py-4 px-2 flex items-center justify-center rounded-md border gap-2 w-full
-                       @(Type == TypeTransaction.Expense ? "bg-myred text-white font-bold" : "bg-gray-100")"
-                @onclick="() => Type = TypeTransaction.Expense">
-            <i class="fa-solid fa-circle-arrow-down @(Type == TypeTransaction.Expense ? "text-white" : "text-red-500") text-2xl"></i>
-            Saída
+
+        <RadzenNumeric 
+            TValue="decimal" 
+            Format="c" 
+            @bind-Value="@transaction.Price" 
+            InputAttributes="@(new Dictionary<string,object>(){ { "aria-label", "enter value" }})" 
+            Style="width: 100%;"
+        />
+        <ValidationMessage For="@(() => transaction.Price)" />
+
+        <div class="flex items-center justify-center w-full gap-2">
+            <button type="button" 
+                class="py-4 px-2 flex items-center justify-center rounded-md border gap-2 w-full
+                       @(transaction.Type == TypeTransaction.Income ? "bg-mygreen text-white font-bold" : "bg-gray-100")"
+                @onclick="() => transaction.Type = TypeTransaction.Income">
+                <i class="fa-solid fa-circle-arrow-up @(transaction.Type == TypeTransaction.Income ? "text-white" : "text-green-500") text-2xl"></i>
+                Entrada
+            </button>
+
+            <button type="button"
+                class="py-4 px-2 flex items-center justify-center rounded-md border gap-2 w-full
+                       @(transaction.Type == TypeTransaction.Expense ? "bg-myred text-white font-bold" : "bg-gray-100")"
+                @onclick="() => transaction.Type = TypeTransaction.Expense">
+                <i class="fa-solid fa-circle-arrow-down @(transaction.Type == TypeTransaction.Expense ? "text-white" : "text-red-500") text-2xl"></i>
+                Saída
+            </button>
+        </div>
+
+        <RadzenFormField Text="Categoria" Variant="Variant.Outlined" Style="width: 100%;">
+            <RadzenTextBox @bind-Value="@transaction.Category" />
+        </RadzenFormField>
+        
+        <button type="submit" 
+            class="flex items-center justify-center @(transaction.Type == TypeTransaction.Income ? "bg-mygreen" : "bg-myred") text-white font-bold font-2xl w-full p-4 rounded-md border">
+            Cadastrar
         </button>
     </div>
-
-    <RadzenFormField Text="Categoria" Variant="Variant.Outlined" Style="width: 100%;">
-        <RadzenTextBox @bind-Value="@Category" />
-    </RadzenFormField>
-    
-    <button class="flex items-center justify-center @(Type == TypeTransaction.Income ? "bg-mygreen " : "bg-myred")   text-white font-bold font-2xl w-full p-4 rounded-md border">
-        Cadastrar
-
-    </button>
-
-</div>
-
+</EditForm>
 
 @code {
-    private string Name { get; set; } = "";
-    private double Price { get; set; } = 0;
-    private TypeTransaction Type { get; set; } = TypeTransaction.Income;
-    private string Category { get; set; } = "";
+    private ModelTransaction transaction = new ModelTransaction();
 
-    void SaveTransaction()
+    protected override void OnInitialized()
     {
-        // Aqui você pode chamar uma API ou salvar os dados de outra forma
-        DialogService.Close(true); // Fecha o diálogo e retorna "true"
+        transaction = new ModelTransaction();
     }
 
-    void CloseDialog()
+    private async Task SaveTransaction()
     {
-        DialogService.Close(false); // Fecha o diálogo sem salvar
-    }
+        try 
+        {
+            var createdTransaction = TransactionService.CreateTransaction(transaction);
 
+      
+            NotificationService.Notify(new NotificationMessage 
+            { 
+                Severity = NotificationSeverity.Success, 
+                Summary = "Sucesso", 
+                Detail = "Transação cadastrada com sucesso!" 
+            });
+
+         
+            DialogService.Close(createdTransaction);
+
+           
+            transaction = new ModelTransaction();
+        }
+        catch (Exception ex)
+        {
+            NotificationService.Notify(new NotificationMessage 
+            { 
+                Severity = NotificationSeverity.Error, 
+                Summary = "Erro", 
+                Detail = $"Erro ao cadastrar transação: {ex.Message}" 
+            });
+        }
+    }
 }

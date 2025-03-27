@@ -1,0 +1,41 @@
+@using FinanceBlazor.Service
+@inject TransactionService TransactionService
+
+<section class="w-full flex items-center justify-center gap-6 p-4 -mt-20">
+    <CardComponent Title="Entradas" Icon="fa-circle-arrow-up" Value=@Income ColorIcon="green-500"
+                   TitleColor="text-blue-900" />
+    <CardComponent Title="Saídas" Icon="fa-circle-arrow-down" Value=@Expense ColorIcon="red-500"
+                   TitleColor="text-blue-900" />
+    <CardComponent Title="Total" Icon="fa-dollar-sign" Value=@Total ColorIcon="white" TitleColor="text-white"
+                   BackgroundColor=@(Total >= 0 ? "mygreen" : "myred") TextColor="white"/>
+</section>
+
+@code {
+    private double Income;
+    private double Expense;
+    private double Total;
+
+    protected override void OnInitialized()
+    {
+        UpdateValues();
+        TransactionService.Transactions.CollectionChanged += OnTransactionsChanged;
+    }
+
+    private void UpdateValues()
+    {
+        Income = TransactionService.SumIncomeTransactions();
+        Expense = TransactionService.SumExpenseTransactions();
+        Total = TransactionService.SumTotalTransactions();
+    }
+
+    private void OnTransactionsChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+    {
+        UpdateValues();
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        TransactionService.Transactions.CollectionChanged -= OnTransactionsChanged;
+    }
+}
