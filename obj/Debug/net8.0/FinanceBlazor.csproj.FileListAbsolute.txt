@@ -3386,6 +3386,6 @@ C:\Users\joaov\Desktop\Finance_Blazor\obj\Debug\net8.0\FinanceBlazor.dll
 C:\Users\joaov\Desktop\Finance_Blazor\obj\Debug\net8.0\refint\FinanceBlazor.dll
 C:\Users\joaov\Desktop\Finance_Blazor\obj\Debug\net8.0\FinanceBlazor.pdb
 C:\Users\joaov\Desktop\Finance_Blazor\obj\Debug\net8.0\ref\FinanceBlazor.dll
-C:\Users\joaov\Desktop\Finance_Blazor\obj\Debug\net8.0\compressed\1trevww0gb-hj17y0tvf7.gz
-C:\Users\joaov\Desktop\Finance_Blazor\obj\Debug\net8.0\compressed\iiae7yp6ww-nvddruznnl.gz
-C:\Users\joaov\Desktop\Finance_Blazor\obj\Debug\net8.0\compressed\hcy8xfhspa-ortgnshqlu.gz
+C:\Users\joaov\Desktop\Finance_Blazor\obj\Debug\net8.0\compressed\1trevww0gb-ghsp2omk3c.gz
+C:\Users\joaov\Desktop\Finance_Blazor\obj\Debug\net8.0\compressed\iiae7yp6ww-hcpzku0uzn.gz
+C:\Users\joaov\Desktop\Finance_Blazor\obj\Debug\net8.0\compressed\hcy8xfhspa-ng4bl5imtm.gz

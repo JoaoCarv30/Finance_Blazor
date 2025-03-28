@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eCIqnseyPq4cXTy4oDJjFkdE2ocmZqCKUqmVSv50ZSQ=",
+  "Hash": "9E8PjvUqL9bWaGyR5fM+8s/Zd+4ev+CdCwWBV5oRFj4=",
   "Source": "FinanceBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -766,8 +766,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "ortgnshqlu",
-      "Integrity": "tPGyFW/kxEgMWli7AX99vkUzrkXAgJA1vYb6k5k0XdU=",
+      "Fingerprint": "ng4bl5imtm",
+      "Integrity": "qQsbY6lpLCiyIREW+lUYplV/5xaVNTRmd6Yx3H3fRHA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -1081,8 +1081,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "nvddruznnl",
-      "Integrity": "fVWhjqB8/3mzhFbWfDT8V/nk6wEYtnN1DsCONSnkbt0=",
+      "Fingerprint": "hcpzku0uzn",
+      "Integrity": "70ic0MYKsXKmbgeIQnEa64GU7UhGUlc3Xw+rpu1ToDU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\FinanceBlazor.pdb"
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "hj17y0tvf7",
-      "Integrity": "jfXlGDU/aZgTyyRIbplVrIe+FeyCepXAqkzsyKGT/ck=",
+      "Fingerprint": "ghsp2omk3c",
+      "Integrity": "dF7wHjSci3EbYsDKPcMHsmRHylvkECKJtlErCu+f5Wk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\webcil\\FinanceBlazor.wasm"
@@ -5834,7 +5834,7 @@
       "OriginalItemSpec": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "Identity": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\1trevww0gb-hj17y0tvf7.gz",
+      "Identity": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\1trevww0gb-ghsp2omk3c.gz",
       "SourceId": "FinanceBlazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\",
@@ -5848,8 +5848,8 @@
       "RelatedAsset": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\FinanceBlazor.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ojvia2gh1r",
-      "Integrity": "NELzmdfxbrt9+EH24zjUGm3adpPICrLS9X1Mpbho2kA=",
+      "Fingerprint": "bs18o27p5d",
+      "Integrity": "C8v4ZuN/uzRsZnGABE+cRa1JotVeKhbUuiaVmNrx7mM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\FinanceBlazor.wasm"
@@ -7997,7 +7997,7 @@
       "OriginalItemSpec": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.Serialization.wasm"
     },
     {
-      "Identity": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\hcy8xfhspa-ortgnshqlu.gz",
+      "Identity": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\hcy8xfhspa-ng4bl5imtm.gz",
       "SourceId": "FinanceBlazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\",
@@ -8011,8 +8011,8 @@
       "RelatedAsset": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6xbrmjkcru",
-      "Integrity": "5kjjn8EkQLuokQyAIXGXlavGG9Tc2mUTcRsjTRen3Ag=",
+      "Fingerprint": "59dyw6gpbv",
+      "Integrity": "Z1BnCXqfxGDchiK1HOwQCjVqGK1WXlZUgXo3cs+PBCo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8102,7 +8102,7 @@
       "OriginalItemSpec": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\de\\Microsoft.CodeAnalysis.resources.wasm"
     },
     {
-      "Identity": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\iiae7yp6ww-nvddruznnl.gz",
+      "Identity": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\iiae7yp6ww-hcpzku0uzn.gz",
       "SourceId": "FinanceBlazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\",
@@ -8116,8 +8116,8 @@
       "RelatedAsset": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\FinanceBlazor.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vyk7frn8dt",
-      "Integrity": "GW8dGGDgjuL7UKl/g2LjvAEHDMVnghnwqedODXH/RqY=",
+      "Fingerprint": "0oceqgesy5",
+      "Integrity": "oLGmUY8U+q4RQdXo3O0brR3KjVdqisBBuv4lbp2LAJ0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\FinanceBlazor.pdb"
@@ -10615,8 +10615,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cjx5do9r67",
-      "Integrity": "CBa7Y04ZJHopJS/Df5+lebsQy3Xt/wdi2j8/JDom1wE=",
+      "Fingerprint": "yevonwwgsv",
+      "Integrity": "9lOOtJEj4CzRzSzTYaXT1WjjjUeYAU1Yz22wcW6GToA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\theme.css"
@@ -13596,7 +13596,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tPGyFW/kxEgMWli7AX99vkUzrkXAgJA1vYb6k5k0XdU=\""
+          "Value": "\"qQsbY6lpLCiyIREW+lUYplV/5xaVNTRmd6Yx3H3fRHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 01:42:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qQsbY6lpLCiyIREW+lUYplV/5xaVNTRmd6Yx3H3fRHA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\hcy8xfhspa-ng4bl5imtm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000101491931"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9852"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z1BnCXqfxGDchiK1HOwQCjVqGK1WXlZUgXo3cs+PBCo=\""
         },
         {
           "Name": "Last-Modified",
@@ -13605,45 +13644,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tPGyFW/kxEgMWli7AX99vkUzrkXAgJA1vYb6k5k0XdU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\hcy8xfhspa-ortgnshqlu.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000101481632"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9853"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5kjjn8EkQLuokQyAIXGXlavGG9Tc2mUTcRsjTRen3Ag=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:22:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -13659,19 +13659,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"tPGyFW/kxEgMWli7AX99vkUzrkXAgJA1vYb6k5k0XdU=\""
+          "Value": "W/\"qQsbY6lpLCiyIREW+lUYplV/5xaVNTRmd6Yx3H3fRHA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tPGyFW/kxEgMWli7AX99vkUzrkXAgJA1vYb6k5k0XdU="
+          "Value": "sha256-qQsbY6lpLCiyIREW+lUYplV/5xaVNTRmd6Yx3H3fRHA="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\hcy8xfhspa-ortgnshqlu.gz",
+      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\hcy8xfhspa-ng4bl5imtm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13680,7 +13680,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9853"
+          "Value": "9852"
         },
         {
           "Name": "Content-Type",
@@ -13688,11 +13688,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5kjjn8EkQLuokQyAIXGXlavGG9Tc2mUTcRsjTRen3Ag=\""
+          "Value": "\"Z1BnCXqfxGDchiK1HOwQCjVqGK1WXlZUgXo3cs+PBCo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:22:52 GMT"
+          "Value": "Fri, 28 Mar 2025 01:25:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13710,7 +13710,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5kjjn8EkQLuokQyAIXGXlavGG9Tc2mUTcRsjTRen3Ag="
+          "Value": "sha256-Z1BnCXqfxGDchiK1HOwQCjVqGK1WXlZUgXo3cs+PBCo="
         }
       ]
     },
@@ -15643,7 +15643,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31756"
+          "Value": "31748"
         },
         {
           "Name": "Content-Type",
@@ -15651,7 +15651,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fVWhjqB8/3mzhFbWfDT8V/nk6wEYtnN1DsCONSnkbt0=\""
+          "Value": "\"70ic0MYKsXKmbgeIQnEa64GU7UhGUlc3Xw+rpu1ToDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 01:42:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-70ic0MYKsXKmbgeIQnEa64GU7UhGUlc3Xw+rpu1ToDU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FinanceBlazor.pdb",
+      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\iiae7yp6ww-hcpzku0uzn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041788550"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23929"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oLGmUY8U+q4RQdXo3O0brR3KjVdqisBBuv4lbp2LAJ0=\""
         },
         {
           "Name": "Last-Modified",
@@ -15660,45 +15699,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-fVWhjqB8/3mzhFbWfDT8V/nk6wEYtnN1DsCONSnkbt0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FinanceBlazor.pdb",
-      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\iiae7yp6ww-nvddruznnl.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000042349553"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23612"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GW8dGGDgjuL7UKl/g2LjvAEHDMVnghnwqedODXH/RqY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:22:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -15714,19 +15714,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"fVWhjqB8/3mzhFbWfDT8V/nk6wEYtnN1DsCONSnkbt0=\""
+          "Value": "W/\"70ic0MYKsXKmbgeIQnEa64GU7UhGUlc3Xw+rpu1ToDU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fVWhjqB8/3mzhFbWfDT8V/nk6wEYtnN1DsCONSnkbt0="
+          "Value": "sha256-70ic0MYKsXKmbgeIQnEa64GU7UhGUlc3Xw+rpu1ToDU="
         }
       ]
     },
     {
       "Route": "_framework/FinanceBlazor.pdb.gz",
-      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\iiae7yp6ww-nvddruznnl.gz",
+      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\iiae7yp6ww-hcpzku0uzn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15735,7 +15735,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23612"
+          "Value": "23929"
         },
         {
           "Name": "Content-Type",
@@ -15743,11 +15743,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GW8dGGDgjuL7UKl/g2LjvAEHDMVnghnwqedODXH/RqY=\""
+          "Value": "\"oLGmUY8U+q4RQdXo3O0brR3KjVdqisBBuv4lbp2LAJ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:22:51 GMT"
+          "Value": "Fri, 28 Mar 2025 01:25:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15765,7 +15765,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GW8dGGDgjuL7UKl/g2LjvAEHDMVnghnwqedODXH/RqY="
+          "Value": "sha256-oLGmUY8U+q4RQdXo3O0brR3KjVdqisBBuv4lbp2LAJ0="
         }
       ]
     },
@@ -15788,7 +15788,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jfXlGDU/aZgTyyRIbplVrIe+FeyCepXAqkzsyKGT/ck=\""
+          "Value": "\"dF7wHjSci3EbYsDKPcMHsmRHylvkECKJtlErCu+f5Wk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 01:42:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dF7wHjSci3EbYsDKPcMHsmRHylvkECKJtlErCu+f5Wk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FinanceBlazor.wasm",
+      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\1trevww0gb-ghsp2omk3c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000075488790"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13246"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C8v4ZuN/uzRsZnGABE+cRa1JotVeKhbUuiaVmNrx7mM=\""
         },
         {
           "Name": "Last-Modified",
@@ -15797,45 +15836,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jfXlGDU/aZgTyyRIbplVrIe+FeyCepXAqkzsyKGT/ck="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FinanceBlazor.wasm",
-      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\1trevww0gb-hj17y0tvf7.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000077663871"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12875"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NELzmdfxbrt9+EH24zjUGm3adpPICrLS9X1Mpbho2kA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:21:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -15851,19 +15851,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jfXlGDU/aZgTyyRIbplVrIe+FeyCepXAqkzsyKGT/ck=\""
+          "Value": "W/\"dF7wHjSci3EbYsDKPcMHsmRHylvkECKJtlErCu+f5Wk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jfXlGDU/aZgTyyRIbplVrIe+FeyCepXAqkzsyKGT/ck="
+          "Value": "sha256-dF7wHjSci3EbYsDKPcMHsmRHylvkECKJtlErCu+f5Wk="
         }
       ]
     },
     {
       "Route": "_framework/FinanceBlazor.wasm.gz",
-      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\1trevww0gb-hj17y0tvf7.gz",
+      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\obj\\Debug\\net8.0\\compressed\\1trevww0gb-ghsp2omk3c.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15872,7 +15872,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12875"
+          "Value": "13246"
         },
         {
           "Name": "Content-Type",
@@ -15880,11 +15880,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NELzmdfxbrt9+EH24zjUGm3adpPICrLS9X1Mpbho2kA=\""
+          "Value": "\"C8v4ZuN/uzRsZnGABE+cRa1JotVeKhbUuiaVmNrx7mM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:21:02 GMT"
+          "Value": "Fri, 28 Mar 2025 01:25:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15902,7 +15902,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NELzmdfxbrt9+EH24zjUGm3adpPICrLS9X1Mpbho2kA="
+          "Value": "sha256-C8v4ZuN/uzRsZnGABE+cRa1JotVeKhbUuiaVmNrx7mM="
         }
       ]
     },
@@ -45718,51 +45718,6 @@
       ]
     },
     {
-      "Route": "css/theme.cjx5do9r67.css",
-      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\wwwroot\\css\\theme.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "45602"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CBa7Y04ZJHopJS/Df5+lebsQy3Xt/wdi2j8/JDom1wE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:25:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cjx5do9r67"
-        },
-        {
-          "Name": "label",
-          "Value": "css/theme.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CBa7Y04ZJHopJS/Df5+lebsQy3Xt/wdi2j8/JDom1wE="
-        }
-      ]
-    },
-    {
       "Route": "css/theme.css",
       "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\wwwroot\\css\\theme.css",
       "Selectors": [],
@@ -45773,7 +45728,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "45602"
+          "Value": "45754"
         },
         {
           "Name": "Content-Type",
@@ -45781,11 +45736,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CBa7Y04ZJHopJS/Df5+lebsQy3Xt/wdi2j8/JDom1wE=\""
+          "Value": "\"9lOOtJEj4CzRzSzTYaXT1WjjjUeYAU1Yz22wcW6GToA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:25:10 GMT"
+          "Value": "Fri, 28 Mar 2025 01:31:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -45795,7 +45750,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CBa7Y04ZJHopJS/Df5+lebsQy3Xt/wdi2j8/JDom1wE="
+          "Value": "sha256-9lOOtJEj4CzRzSzTYaXT1WjjjUeYAU1Yz22wcW6GToA="
+        }
+      ]
+    },
+    {
+      "Route": "css/theme.yevonwwgsv.css",
+      "AssetFile": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\wwwroot\\css\\theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9lOOtJEj4CzRzSzTYaXT1WjjjUeYAU1Yz22wcW6GToA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 01:31:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yevonwwgsv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/theme.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9lOOtJEj4CzRzSzTYaXT1WjjjUeYAU1Yz22wcW6GToA="
         }
       ]
     },
