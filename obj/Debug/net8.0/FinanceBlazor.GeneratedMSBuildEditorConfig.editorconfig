@@ -21,47 +21,49 @@ build_property._SupportedPlatformList = browser
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = FinanceBlazor
 build_property.RootNamespace = FinanceBlazor
-build_property.ProjectDir = /home/joao/FinanceBlazorProject/FinanceBlazor/
+build_property.ProjectDir = C:\Users\joaov\Desktop\Finance_Blazor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/joao/FinanceBlazorProject/FinanceBlazor
+build_property.MSBuildProjectDirectory = C:\Users\joaov\Desktop\Finance_Blazor
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[/home/joao/FinanceBlazorProject/FinanceBlazor/App.razor]
+[C:/Users/joaov/Desktop/Finance_Blazor/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/joao/FinanceBlazorProject/FinanceBlazor/Components/CardComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9DYXJkQ29tcG9uZW50LnJhem9y
+[C:/Users/joaov/Desktop/Finance_Blazor/Components/CardComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/joao/FinanceBlazorProject/FinanceBlazor/Components/CardsSection.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9DYXJkc1NlY3Rpb24ucmF6b3I=
+[C:/Users/joaov/Desktop/Finance_Blazor/Components/CardsSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJkc1NlY3Rpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/joao/FinanceBlazorProject/FinanceBlazor/Components/HeaderComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9IZWFkZXJDb21wb25lbnQucmF6b3I=
+[C:/Users/joaov/Desktop/Finance_Blazor/Components/HeaderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZWFkZXJDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/joao/FinanceBlazorProject/FinanceBlazor/Components/NewTransaction.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OZXdUcmFuc2FjdGlvbi5yYXpvcg==
+[C:/Users/joaov/Desktop/Finance_Blazor/Components/NewTransaction.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOZXdUcmFuc2FjdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/joao/FinanceBlazorProject/FinanceBlazor/Components/Table.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYWJsZS5yYXpvcg==
+[C:/Users/joaov/Desktop/Finance_Blazor/Components/Table.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYWJsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/joao/FinanceBlazorProject/FinanceBlazor/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+[C:/Users/joaov/Desktop/Finance_Blazor/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/joao/FinanceBlazorProject/FinanceBlazor/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+[C:/Users/joaov/Desktop/Finance_Blazor/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/joao/FinanceBlazorProject/FinanceBlazor/_Imports.razor]
+[C:/Users/joaov/Desktop/Finance_Blazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

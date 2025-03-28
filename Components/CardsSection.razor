@@ -3,11 +3,11 @@
 
 <section class="w-full flex items-center justify-center gap-6 p-4 -mt-20">
     <CardComponent Title="Entradas" Icon="fa-circle-arrow-up" Value=@Income ColorIcon="green-500"
-                   TitleColor="text-blue-900" />
+                   TitleColor="text-blue-900" BackgroundColor="bg-mywhite" />
     <CardComponent Title="Saídas" Icon="fa-circle-arrow-down" Value=@Expense ColorIcon="red-500"
-                   TitleColor="text-blue-900" />
+                   TitleColor="text-blue-900" BackgroundColor="bg-mywhite" />
     <CardComponent Title="Total" Icon="fa-dollar-sign" Value=@Total ColorIcon="white" TitleColor="text-white"
-                   BackgroundColor=@(Total >= 0 ? "mygreen" : "myred") TextColor="white"/>
+                   BackgroundColor=@(Total >= 0 ? "bg-mygreen" : "bg-myred") TextColor="white"/>
 </section>
 
 @code {

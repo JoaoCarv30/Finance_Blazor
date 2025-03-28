@@ -1,51 +1,51 @@
 {
   "Files": [
     {
-      "Id": "/home/joao/FinanceBlazorProject/FinanceBlazor/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
-      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+      "Id": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "/home/joao/FinanceBlazorProject/FinanceBlazor/obj/Debug/net8.0/compressed/t6cc7altom.gz",
-      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+      "Id": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "/home/joao/FinanceBlazorProject/FinanceBlazor/wwwroot/css/app.css",
-      "PackagePath": "staticwebassets/css/app.css"
+      "Id": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\wwwroot\\css\\theme.css",
+      "PackagePath": "staticwebassets\\css\\theme.css"
     },
     {
-      "Id": "/home/joao/FinanceBlazorProject/FinanceBlazor/wwwroot/css/theme.css",
-      "PackagePath": "staticwebassets/css/theme.css"
+      "Id": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "/home/joao/FinanceBlazorProject/FinanceBlazor/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
+      "Id": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "/home/joao/FinanceBlazorProject/FinanceBlazor/wwwroot/icon-192.png",
-      "PackagePath": "staticwebassets/icon-192.png"
+      "Id": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "/home/joao/FinanceBlazorProject/FinanceBlazor/wwwroot/index.html",
-      "PackagePath": "staticwebassets/index.html"
+      "Id": "C:\\Users\\joaov\\Desktop\\Finance_Blazor\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
-      "Id": "/home/joao/FinanceBlazorProject/FinanceBlazor/wwwroot/sample-data/weather.json",
-      "PackagePath": "staticwebassets/sample-data/weather.json"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinanceBlazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FinanceBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinanceBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.FinanceBlazor.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinanceBlazor.props",
       "PackagePath": "build\\FinanceBlazor.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FinanceBlazor.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinanceBlazor.props",
       "PackagePath": "buildMultiTargeting\\FinanceBlazor.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FinanceBlazor.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinanceBlazor.props",
       "PackagePath": "buildTransitive\\FinanceBlazor.props"
     }
   ],
